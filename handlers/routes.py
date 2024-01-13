@@ -6,4 +6,4 @@ def configure_routes(app):
     def index():
         hello = modules.hello()
         content = modules.content()
-        return render_template("index.html", hello=hello, content=content)
+        return content
