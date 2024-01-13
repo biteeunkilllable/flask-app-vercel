@@ -248,7 +248,7 @@ def Quizz():
 
         ]  
             ''' 
-    prompt = f"create a {level} quiz with {num_qus} question and 4 answer and include the answer for the following text:\n\n{text}\n\n{format_i}"
+    prompt = f"create a {level} quiz with {num_qus} question and 4 shuffled answer and include the answer for the following text:\n\n{text}\n\n{format_i}"
 
     result = model.generate_content(
     prompt,
